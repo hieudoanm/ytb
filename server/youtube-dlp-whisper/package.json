@@ -27,5 +27,5 @@
     "docsify-cli": "4.4.4",
     "rimraf": "6.0.1"
   },
-  "packageManager": "pnpm@10.18.3"
+  "packageManager": "pnpm@10.19.0"
 }
