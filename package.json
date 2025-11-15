@@ -1,0 +1,33 @@
+{
+  "name": "yts",
+  "version": "0.0.1",
+  "description": "yts",
+  "keywords": [
+    "yts"
+  ],
+  "homepage": "https://github.com/hieudoanm/yts#readme",
+  "bugs": {
+    "url": "https://github.com/hieudoanm/yts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hieudoanm/yts.git"
+  },
+  "license": "GPL-3.0",
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "scripts": {
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "build": "turbo run build",
+    "build:docs": "rimraf docs && docsify init ./docs && touch docs/.nojekyll",
+    "format": "turbo run format",
+    "prepare": "husky || true"
+  },
+  "devDependencies": {
+    "docsify-cli": "4.4.4",
+    "husky": "9.1.7",
+    "rimraf": "6.1.0",
+    "turbo": "2.6.1"
+  },
+  "packageManager": "pnpm@10.22.0"
+}
