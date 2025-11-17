@@ -21,7 +21,7 @@ importers:
         specifier: 2.6.1
         version: 2.6.1
 
-  extensions/shorts:
+  packages/extensions/shorts:
     devDependencies:
       '@eslint/js':
         specifier: 9.39.1
@@ -81,7 +81,7 @@ importers:
         specifier: 6.0.1
         version: 6.0.1(webpack@5.102.1)
 
-  extensions/transcript:
+  packages/extensions/transcript:
     devDependencies:
       '@eslint/js':
         specifier: 9.39.1
@@ -140,6 +140,33 @@ importers:
       webpack-cli:
         specifier: 6.0.1
         version: 6.0.1(webpack@5.102.1)
+
+  packages/server/youtube-dlp-whisper:
+    devDependencies:
+      docsify-cli:
+        specifier: 4.4.4
+        version: 4.4.4(encoding@0.1.13)
+      rimraf:
+        specifier: 6.1.0
+        version: 6.1.0
+
+  packages/server/youtube-transcript-summariser/fastapi:
+    devDependencies:
+      docsify-cli:
+        specifier: 4.4.4
+        version: 4.4.4(encoding@0.1.13)
+      rimraf:
+        specifier: 6.1.0
+        version: 6.1.0
+
+  packages/server/youtube-transcript-summariser/flask:
+    devDependencies:
+      docsify-cli:
+        specifier: 4.4.4
+        version: 4.4.4(encoding@0.1.13)
+      rimraf:
+        specifier: 6.1.0
+        version: 6.1.0
 
 packages:
 
