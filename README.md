@@ -1,1 +1,3 @@
-# YTS (YouTube Transcript Summarizer)
+# YouTube Extensions
+
+- YouTube Transcript Summarizer
