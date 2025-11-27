@@ -72,9 +72,6 @@ target/
 # IPython / Jupyter
 .ipynb_checkpoints
 
-# pyenv
-.python-version
-
 # pipenv
 Pipfile.lock
 
