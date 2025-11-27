@@ -2,7 +2,7 @@
 
 fastapi==0.122.0
 openai-whisper==20250625
-pydantic==2.12.4
+pydantic==2.12.5
 requests==2.32.5
 structlog==25.5.0
 yt-dlp==2025.11.12
